@@ -1,0 +1,26 @@
+.container {
+    height: 1514px;
+    padding-top: 68px;
+    background: #171717 !important;
+}
+
+.title {
+    margin-bottom: 110px !important;
+    font-weight: 600 !important;
+    font-size: 72px !important;
+    text-align: center;
+    background: -webkit-linear-gradient(90.01deg, #5EA7D3 0.34%, #1FEDF6 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 570px;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    text-align: center;
+    color: #BDBDBD;
+
+}

@@ -1,0 +1,88 @@
+.appBarContainer {
+    display: flex !important;
+    height: 91px;
+    margin: 0;
+    background-color: #171717 !important;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(255, 255, 255, 0.22);
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-right: 40px
+}
+
+.linkContainer {
+    padding: 0 !important
+}
+
+.appBarList {
+    display: flex;
+    margin-left: auto !important;
+    margin-right: 64px !important;
+    margin-top: 4.5px !important;
+    padding: 0 !important;
+}
+
+.logoContainer {
+    align-items: center;
+    display: flex;
+    position: absolute;
+    margin-left: 64px;
+    margin-top: 8px;
+}
+
+.appBarName {
+    text-decoration: none;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    text-transform: uppercase;
+    color: #F2F2F2;
+    margin-left: 14px !important
+}
+
+.loginButton {
+    width: 160px !important;
+    height: 82px !important;
+    margin-left: 16px !important;
+    border-radius: 150px !important;
+    padding: 0 !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #F2F2F2 !important;
+    border: none !important;
+    outline: none !important;
+    z-index: 1;
+    background: linear-gradient(to left, #5EA7D3, #1FEDF6) !important;
+}
+
+.loginButton::before {
+    content: "";
+    border-radius: 150px !important;
+    position: absolute;
+    top: 2.5px;
+    right: 2.5px;
+    bottom: 1.5px;
+    left: 1.5px;
+    background-color: #1E1E1E;
+    z-index: -1;
+}
+
+.loginButton::after {
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    background: #F2F2F2 !important;
+    /* -webkit-background-clip: text !important; */
+    color: transparent !important;
+}
+
+.loginButton:hover {
+    /* background-color: red !important; */
+    color: #5EA7D3 !important;
+}

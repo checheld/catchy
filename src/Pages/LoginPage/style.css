@@ -1,0 +1,34 @@
+.pageFormLogin {
+    margin-top: 109.5px;
+}
+
+.forgotPasswordLink {
+    margin-bottom: 32px !important;
+    text-align: start;
+    cursor: pointer;
+    font-weight: 200 !important;
+    font-size: 16px;
+    text-decoration-line: underline;
+    color: #828282;
+}
+
+.loginInputContainer {
+    margin-bottom: 24px;
+}
+
+@media (max-width: 390px) {
+
+    .pageFormLogin {
+        margin-top: 0;
+    }
+
+    .loginInputContainer {
+        padding-left: 14px;
+        padding-right: 18px;
+    }
+
+    .forgotPasswordLink {
+        padding-left: 14px;
+    }
+
+}

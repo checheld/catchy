@@ -1,0 +1,20 @@
+.forgotPasswordContainer {
+    margin-bottom: 32px;
+}
+
+.pageFormForgotPassword {
+    margin-top: 190.5px;
+}
+
+@media (max-width: 390px) {
+
+    .pageFormForgotPassword {
+        margin-top: 0;
+    }
+
+    .forgotPasswordContainer {
+        padding-left: 10px;
+        padding-right: 14px;
+    }
+
+}

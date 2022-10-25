@@ -1,0 +1,20 @@
+.forgotPasswordInputContainer {
+    margin-bottom: 32px;
+}
+
+.pageFormResetPassword {
+    margin-top: 133.5px;
+}
+
+@media (max-width: 390px) {
+
+    .pageFormResetPassword {
+        margin-top: 0;
+    }
+
+    .forgotPasswordInputContainer {
+        padding-left: 10px;
+        padding-right: 14px;
+    }
+
+}

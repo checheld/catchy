@@ -1,0 +1,22 @@
+.mainClass {
+    margin-bottom: 16px !important
+}
+
+.secondaryClass {
+    display: none !important;
+}
+
+@media (max-width: 390px) {
+
+    .mainClass {
+        width: 308px !important;
+    }
+
+    .secondaryClass {
+        display: inline-block !important;
+        width: 308px !important;
+        margin-bottom: 16px !important;
+        background-color: rgba(94, 167, 211, 0.5) !important;
+    }
+
+}

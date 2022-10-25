@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Adieu';
+  src: url('./fonts/MiConv.com__Adieu-Regular.otf');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./fonts/ProximaNova-Light.woff');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./fonts/ProximaNova-Semibold.woff');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./fonts/ProximaNova-Bold.woff');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./fonts/ProximaNova-Extrabld.woff');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 800;
+}
+
+body {
+  margin: 0;
+  padding: 0 !important;
 }
